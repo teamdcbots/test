@@ -54,41 +54,37 @@
    ```
 2. **Install Required Packages:**
    ```bash
-   sudo apt-get install python3-pip ffmpeg -y
+   sudo apt-get install python3-pip
    ```
 3. **Setting up PIP**
    ```bash
    sudo pip3 install -U pip
    ```
 
-4. **Installing Node js**
-      ```bash
-      curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm
-      ```
-5. **Clone the Repository**
+4. **Clone the Repository**
    ```bash
    git clone https://github.com/vicky0604hello/DC-SESSION-BOT && cd DC-SESSION-BOT
    ```
-6. **Install Requirements**
+5. **Install Requirements**
    ```bash
    pip3 install -U -r requirements.txt
    ```
-7. **Fill your variables in the env by**
+6. **Fill your variables in the env by**
    ```bash
    vi sample.env
    ```
 ➲ **Press `I` on the keyboard for editing env**
   **Press `Ctrl+C` when you're done with editing env and `:wq` to save the env**
 
- 8. **Rename the env file**
+ 7. **Rename the env file**
    ```bash
     mv sample.env .env
    ```
- 9. **Install tmux to keep running your bot when you close the terminal by**
+ 8. **Install tmux to keep running your bot when you close the terminal by**
    ```bash
       sudo apt install tmux && tmux
    ```
- 10. **Run the Bot**
+ 9. **Run the Bot**
      ```bash
      bash start
      ```
